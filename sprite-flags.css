@@ -1,0 +1,212 @@
+.container {
+  max-width: 1020px;
+  margin: 0 auto; }
+
+* {
+  box-sizing: border-box; }
+
+.flag-block {
+  text-align: left;
+  padding-top: 15px; }
+  .flag-block .ico-flag {
+    position: relative;
+    height: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    line-height: 40px; }
+    .flag-block .ico-flag:before {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 20px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 0;
+      background-image: url("img/sprite-flags.png");
+      background-repeat: no-repeat; }
+
+.ico-flag-morocco:before, .ico-flag-egypt:before, .ico-flag-usa:before {
+  width: 27px; }
+
+.ico-flag-albania:before {
+  background-position: 0px top; }
+
+.ico-flag-austria:before {
+  background-position: -30px top; }
+
+.ico-flag-belgium:before {
+  background-position: -60px top; }
+
+.ico-flag-bosnia:before {
+  background-position: -90px top; }
+
+.ico-flag-bulgaria:before {
+  background-position: -120px top; }
+
+.ico-flag-crotia:before {
+  background-position: -150px top; }
+
+.ico-flag-cyprus:before {
+  background-position: -180px top; }
+
+.ico-flag-czech:before {
+  background-position: -210px top; }
+
+.ico-flag-danmark:before {
+  background-position: -240px top; }
+
+.ico-flag-estonia:before {
+  background-position: -270px top; }
+
+.ico-flag-france:before {
+  background-position: -300px top; }
+
+.ico-flag-germany:before {
+  background-position: -330px top; }
+
+.ico-flag-greece:before {
+  background-position: -360px top; }
+
+.ico-flag-hungary:before {
+  background-position: -390px top; }
+
+.ico-flag-iceland:before {
+  background-position: -420px top; }
+
+.ico-flag-irland:before {
+  background-position: -450px top; }
+
+.ico-flag-italy:before {
+  background-position: -480px top; }
+
+.ico-flag-latvia:before {
+  background-position: -510px top; }
+
+.ico-flag-lihtenstein:before {
+  background-position: -540px top; }
+
+.ico-flag-lytva:before {
+  background-position: -570px top; }
+
+.ico-flag-luxembourg:before {
+  background-position: -600px top; }
+
+.ico-flag-malta:before {
+  background-position: -630px top; }
+
+.ico-flag-monaco:before {
+  background-position: -660px top; }
+
+.ico-flag-netherlands:before {
+  background-position: -690px top; }
+
+.ico-flag-norway:before {
+  background-position: -720px top; }
+
+.ico-flag-poland:before {
+  background-position: -750px top; }
+
+.ico-flag-portugal:before {
+  background-position: -780px top; }
+
+.ico-flag-romania:before {
+  background-position: -810px top; }
+
+.ico-flag-russia:before {
+  background-position: -840px top; }
+
+.ico-flag-slovakia:before {
+  background-position: -870px top; }
+
+.ico-flag-slovenia:before {
+  background-position: -900px top; }
+
+.ico-flag-spain:before {
+  background-position: -930px top; }
+
+.ico-flag-sweden:before {
+  background-position: -960px top; }
+
+.ico-flag-switzerland:before {
+  background-position: -990px top; }
+
+.ico-flag-turkey:before {
+  background-position: -1020px top; }
+
+.ico-flag-uae:before {
+  background-position: -1050px top; }
+
+.ico-flag-australia:before {
+  background-position: -1080px top; }
+
+.ico-flag-china:before {
+  background-position: -1110px top; }
+
+.ico-flag-hogcong:before {
+  background-position: -1140px top; }
+
+.ico-flag-india:before {
+  background-position: -1170px top; }
+
+.ico-flag-indonesia:before {
+  background-position: -1200px top; }
+
+.ico-flag-iraq:before {
+  background-position: -1230px top; }
+
+.ico-flag-jordan:before {
+  background-position: -1260px top; }
+
+.ico-flag-kuwait:before {
+  background-position: -1290px top; }
+
+.ico-flag-malaysia:before {
+  background-position: -1320px top; }
+
+.ico-flag-newzeland:before {
+  background-position: -1350px top; }
+
+.ico-flag-phillipines:before {
+  background-position: -1380px top; }
+
+.ico-flag-qatar:before {
+  background-position: -1410px top; }
+
+.ico-flag-singapore:before {
+  background-position: -1440px top; }
+
+.ico-flag-thailand:before {
+  background-position: -1470px top; }
+
+.ico-flag-vietnam:before {
+  background-position: -1500px top; }
+
+.ico-flag-barbados:before {
+  background-position: -1530px top; }
+
+.ico-flag-brazil:before {
+  background-position: -1560px top; }
+
+.ico-flag-canada:before {
+  background-position: -1590px top; }
+
+.ico-flag-jamaica:before {
+  background-position: -1620px top; }
+
+.ico-flag-per:before {
+  background-position: -1650px top; }
+
+.ico-flag-trinidad:before {
+  background-position: -1680px top; }
+
+.ico-flag-usa:before {
+  background-position: -1710px top; }
+
+.ico-flag-egypt:before {
+  background-position: -1740px top; }
+
+.ico-flag-morocco:before {
+  background-position: -1770px top; }
+
+/*# sourceMappingURL=sprite-flags.css.map */

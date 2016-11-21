@@ -1,0 +1,53 @@
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+*{
+  box-sizing: border-box;
+}
+//Sprite
+.flag-block {
+text-align: left;
+  padding-top: 15px;
+  .ico-flag {
+    position: relative;
+    height: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 20px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 0;
+      background-image: url('img/sprite-flags.png');
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.ico-flag-morocco, .ico-flag-egypt, .ico-flag-usa {
+  &:before {
+    width: 27px;
+  }
+}
+
+$countries: albania austria belgium bosnia bulgaria crotia cyprus czech danmark estonia france germany greece hungary iceland irland italy latvia lihtenstein lytva luxembourg malta monaco netherlands norway poland portugal romania russia slovakia slovenia spain sweden switzerland turkey uae australia china hogcong india indonesia iraq jordan kuwait malaysia newzeland phillipines qatar singapore thailand vietnam barbados brazil canada jamaica per trinidad usa egypt morocco;
+
+@mixin flag-sprite($offset) {
+  $offset: $offset - 1;
+  &:before {
+    background-position: 30px*-$offset top;
+  }
+}
+
+@for $i from 1 through length($countries) {
+  $country: nth($countries, $i);
+  .ico-flag-#{$country} {
+    @include flag-sprite($i);
+  }
+}
